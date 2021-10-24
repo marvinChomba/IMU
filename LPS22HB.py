@@ -61,7 +61,7 @@ if __name__ == '__main__':
     PRESS_DATA = 0.0
     TEMP_DATA = 0.0
     u8Buf=[0,0,0]
-    print("\nPressure Sensor Test Program ...\n")
+#    print("\nPressure Sensor Test Program ...\n")
     n = 100
     lps22hb=LPS22HB()
     while n>0:
