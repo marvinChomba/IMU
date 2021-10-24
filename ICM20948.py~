@@ -376,10 +376,8 @@ class ICM20948(object):
     
 if __name__ == '__main__':
   import time
- # print("\nSense HAT Test Program ...\n")
   MotionVal=[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]
   icm20948=ICM20948()
-#  print('nAcceleration:  X =  , Y =  , Z = ')
   n=100
 while n>0:
     n=n-1
@@ -396,8 +394,8 @@ while n>0:
    # print("\r\n /-------------------------------------------------------------/ \r\n")
    # print('\r\n Roll = %.2f , Pitch = %.2f , Yaw = %.2f\r\n'%(roll,pitch,yaw))
 #    print('\r\n  %d,%d,%d\r\n'%(Accel[0],Accel[1],Accel[2]))  
-#    print('\r\n %d,%d,%d\r\n'%(Gyro[0],Gyro[1],Gyro[2]))
-    print('\r\n%d,%d,%d'%((Mag[0]),Mag[1],Mag[2]))
+    print('\r\n %d,%d,%d\r\n'%(Gyro[0],Gyro[1],Gyro[2]))
+#    print('\r\n%d,%d,%d'%((Mag[0]),Mag[1],Mag[2]))
     
 
 
