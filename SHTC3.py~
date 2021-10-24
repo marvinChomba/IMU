@@ -25,7 +25,5 @@ class SHTC3:
 
 if __name__ == "__main__":
     shtc3 = SHTC3()
-    n = 100
-    while n > 0:
-        n = n - 1
-        print('%6.2f,%6.2f' % (shtc3.SHTC3_Read_Temperature(), shtc3.SHTC3_Read_Humidity()))
+    while True:
+        print('Temperature = %6.2f°C , Humidity = %6.2f%%' % (shtc3.SHTC3_Read_Temperature(), shtc3.SHTC3_Read_Humidity()))

@@ -393,9 +393,9 @@ while n>0:
     yaw   = math.atan2(-2 * q1 * q2 - 2 * q0 * q3, 2 * q2 * q2 + 2 * q3 * q3 - 1) * 57.3
    # print("\r\n /-------------------------------------------------------------/ \r\n")
    # print('\r\n Roll = %.2f , Pitch = %.2f , Yaw = %.2f\r\n'%(roll,pitch,yaw))
-    print('\r\n  %d,%d,%d\r\n'%(Accel[0],Accel[1],Accel[2]))  
+#    print('\r\n  %d,%d,%d\r\n'%(Accel[0],Accel[1],Accel[2]))  
 #    print('\r\n %d,%d,%d\r\n'%(Gyro[0],Gyro[1],Gyro[2]))
-#    print('\r\n%d,%d,%d'%((Mag[0]),Mag[1],Mag[2]))
+#    kprint('\r\n%d,%d,%d'%((Mag[0]),Mag[1],Mag[2]))
     
 
 

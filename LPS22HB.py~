@@ -62,10 +62,8 @@ if __name__ == '__main__':
     TEMP_DATA = 0.0
     u8Buf=[0,0,0]
     print("\nPressure Sensor Test Program ...\n")
-    n = 100
     lps22hb=LPS22HB()
-    while n>0:
-        n=n-1
+    while True:
         time.sleep(0.1)
         lps22hb.LPS22HB_START_ONESHOT()
         if (lps22hb._read_byte(LPS_STATUS)&0x01)==0x01:  # a new pressure data is generated
